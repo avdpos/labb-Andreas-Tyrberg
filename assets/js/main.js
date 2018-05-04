@@ -18,10 +18,27 @@ function validateForm(){
     }
     else
     {
-        "you have entered info"
-    }
+        if (validateEmail(mejl) = true) {
+            return "Correct input"
+        }
 
-    
+        else {
+            return "fyll i en korrekt emailadress"
+        }
+    } 
+    /*
     console.log(uname);
     console.log(mejl);
+    */
 }
+
+function validateEmail(emailAdress)
+{
+    var reg =/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\.\-])+\.([A-Za-z]2.4})$/;
+    if reg.test(emailAdress.value) == false{
+        alert('Invalid email');
+        return false;
+    }
+    else true;
+}
+

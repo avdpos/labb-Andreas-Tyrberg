@@ -1,7 +1,5 @@
 /*färgskala : http://paletton.com/#uid=14k0u0kllllaFw0g0qFqFg0w0aF*/
-html{
-    color: whitesmoke;
-}
+
 body{
     margin: 5%;
     padding: 5%;
@@ -11,7 +9,7 @@ body{
     border-color: black;
     border-radius: 20px;
 
-    background-color: #452F74;
+    background-color: #B3A9CE;
     color: black;
 
     text-align: left;
@@ -38,7 +36,8 @@ h2{
     margin: 3%;
     border-radius: 20px;
 
-    background-color: #655091;
+    color: #2B1657;
+    background-color: #887AAE;
     padding: 3%;
 }
 .posting{
@@ -47,7 +46,8 @@ h2{
     margin: 3%;
     border-radius: 20px;
 
-    background-color: #655091;
+    color: #2B1657;
+    background-color: #887AAE;
     padding: 3%;
 }
 .button{
@@ -63,7 +63,14 @@ h2{
 
 .username{
     text-align: left;
+    background-color: #2B1657;
+    border: none;
+    color: #887AAE;
+            
 }
 .email{
-    text-align: right;
+    text-align: left;
+    background-color: #2B1657;
+    border: none;
+    color: #887AAE;
 }
