@@ -1,0 +1,69 @@
+/*färgskala : http://paletton.com/#uid=14k0u0kllllaFw0g0qFqFg0w0aF*/
+html{
+    color: whitesmoke;
+}
+body{
+    margin: 5%;
+    padding: 5%;
+    padding-top: 0%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+
+    background-color: #452F74;
+    color: black;
+
+    text-align: left;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.heading{
+    border-style: solid;
+    border-width: 1px;
+    margin: 3%;
+    border-radius: 20px;
+
+    color: #2B1657;
+    background-color: #887AAE;
+}
+.previousPosts{
+    border-style: solid;
+    border-width: 1px;
+    margin: 3%;
+    border-radius: 20px;
+
+    background-color: #655091;
+    padding: 3%;
+}
+.posting{
+    border-style: solid;
+    border-width: 1px;
+    margin: 3%;
+    border-radius: 20px;
+
+    background-color: #655091;
+    padding: 3%;
+}
+.button{
+    background-color: #2B1657;
+    border: none;
+    color: #887AAE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.username{
+    text-align: left;
+}
+.email{
+    text-align: right;
+}
